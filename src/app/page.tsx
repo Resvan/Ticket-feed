@@ -13,7 +13,7 @@ export default function Home() {
               Discover Your Life, Travel <br /> Where You Want
             </h1>
             <p className="mt-10 leading-loose sm:text-sm md:text-base">
-              Would you like to explore natural paradises around the world? Let's discover the best <br /> destinations together!
+              Would you like to explore natural paradises around the world? Let&apos;s discover the best <br /> destinations together!
             </p>
           </div>
         </div>
