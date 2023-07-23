@@ -66,12 +66,15 @@ const Navbar: React.FC<NavbarProps> = ({ page }) => {
                 </ul>
             </div>
             </div>
-            <div className="md:hidden flex justify-end p-5">
+            <div className="md:hidden flex justify-between p-5">
+                <div className="text-white">
+                    <h1 className="font-medium text-xl">TICKET FEED</h1>
+                </div>
                 <button
                     className="text-white focus:outline-none"
                     onClick={toggleMobileNav}
                 >
-                    <i className="fas fa-bars"></i>
+                    <i className="fas fa-bars fa-xl"></i>
                 </button>
             </div>
             {showMobileNav && (

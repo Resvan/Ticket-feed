@@ -9,7 +9,7 @@ export default function Home() {
         <Navbar page={'home'} />
         <div className="min-h-full flex justify-center items-center">
           <div className=" text-white text-center">
-            <h1 className="md:text-5xl font-semibold leading-normal">
+            <h1 className="text-2xl md:text-5xl font-semibold leading-normal">
               Discover Your Life, Travel <br /> Where You Want
             </h1>
             <p className="mt-10 leading-loose sm:text-sm md:text-base">
